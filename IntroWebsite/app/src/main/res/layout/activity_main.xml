@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.letscodethemup.introwebsite.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/webpic"
+        android:id="@+id/page"
+        android:scaleType="centerCrop"
+        android:layout_weight = "2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_weight = "0"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#A26680"
+        android:id="@+id/description"
+        tools:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="A place to learn together"
+        android:layout_weight = "1"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:padding="16dp"
+        android:layout_weight = "0"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#A26680"
+        android:id="@+id/contact"
+        tools:textStyle="bold"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_website"
+            android:id="@+id/websiteIcon"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="http://www.letscodethemup.com"
+            android:layout_toRightOf="@id/websiteIcon"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="16dp"
+            android:paddingTop="2dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/black"
+            android:id="@+id/websiteName"
+            tools:textStyle="normal"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_name"
+            android:id="@+id/mailIcon"
+            android:paddingTop="8dp"
+            android:layout_below="@id/websiteIcon"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="letscodethemup@gmail.com"
+            android:layout_toRightOf="@id/mailIcon"
+            android:layout_below="@id/websiteName"
+            android:paddingLeft="16dp"
+            android:paddingTop="18dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/black"
+            android:id="@+id/email"
+            tools:textStyle="normal"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
