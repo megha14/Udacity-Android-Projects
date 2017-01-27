@@ -1,4 +1,3 @@
-Udacity | Android Projects
+# Udacity | Android Projects
 
-A collection of all th projects made while learning Android.
-
+A collection of all the projects made while learning Android.
