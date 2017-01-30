@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">JavaQuiz</string>
+
+    <string name="heading">Answer 10 questions on Java. Press submit to get your scores</string>
+    
+    <!--Question 1 -->
+    <string name="question1">Can we compare int variable with a boolean variable? Answer in true or false</string>
+    <string name="answer1">Enter you Answer here</string>
+
+    <!--Question 2 -->
+    <string name="question2"> What kind of variables a class can consist of?</string>
+    <string name="answer2A">class variables</string>
+    <string name="answer2B">local variables</string>
+    <string name="answer2C">instance variables</string>
+    <string name="answer2D">none of the above.</string>
+
+    <!--Question 3 -->
+    <string name="question3">Dynamic binding uses which information for binding?</string>
+    <string name="answer3A">type</string>
+    <string name="answer3B">object</string>
+    <string name="answer3C">both of the above</string>
+    <string name="answer3D">none of the above</string>
+
+    <!--Question 4 -->
+    <string name="question4">Can be constructor be made final? Answer in true or false</string>
+    <string name="answer4">Enter you Answer here</string>
+
+    <!--Question 5 -->
+    <string name="question5">What is true about a final class?</string>
+    <string name="answer5A">class declard final is a final class.</string>
+    <string name="answer5B">Final classes are created so the methods implemented by that class cannot be overridden.</string>
+    <string name="answer5C">It can be inherited.</string>
+    <string name="answer5D">All of the above</string>
+
+    <!--Question 6 -->
+    <string name="question6">Deletion is faster in LinkedList than ArrayList.?</string>
+    <string name="answer6A">True</string>
+    <string name="answer6B">False</string>
+
+
+    <!--Question 7 -->
+    <string name="question7">What is the size of int variable?</string>
+    <string name="answer7">0</string>
+
+    <!-- Question 8 -->
+    <string name="question8">What is function overloading?</string>
+    <string name="answer8A">Methods with same name, same parameter types but different parameter names.</string>
+    <string name="answer8B">Methods with same name but different return types.</string>
+    <string name="answer8C">Methods with same name but different parameters.</string>
+    <string name="answer8D">None of the above.</string>
+
+    <!--Question 9 -->
+    <string name="question9">Which of the following is not true about String?</string>
+    <string name="answer9A">String is mutable</string>
+    <string name="answer9B">String is immutable</string>
+    <string name="answer9C">String is a data type</string>
+    <string name="answer9D">String cannot store integers</string>
+
+    <!--Question 10 -->
+    <string name="question10"> Which of the following is not a keyword in java?</string>
+    <string name="answer10A">static</string>
+    <string name="answer10B">void</string>
+    <string name="answer10C">private</string>
+    <string name="answer10D">boolean</string>
+
+    <!-- Submit Button-->
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+
+    <!-- Score-->
+    <string name="score">Score</string>
+    <string name="totalCorrect">Correct</string>
+    <string name="totalWrong">Incorrect</string>
+    <string name="total">Total</string>
+
+</resources>
