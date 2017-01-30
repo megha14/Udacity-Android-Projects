@@ -103,75 +103,75 @@ public class MainActivity extends AppCompatActivity {
                 if (checked)
                     scoreAnswer2 += 1;
                 else
-                    scoreAnswer2 = 0;
+                    scoreAnswer2 -= 1;
                 break;
             case R.id.b2:
                 if (checked)
                     scoreAnswer2 += 1;
                 else
-                    scoreAnswer2 = 0;
+                    scoreAnswer2 -= 1;
                 break;
             case R.id.c2:
                 if (checked)
                     scoreAnswer2 += 1;
                 else
-                    scoreAnswer2 = 0;
+                    scoreAnswer2 -= 1;
                 break;
             case R.id.d2:
                 if (checked)
-                    scoreAnswer2 = 0;
+                    scoreAnswer2 -= 1;
                 else
-                    scoreAnswer2 = 0;
+                    scoreAnswer2 += 1;
                 break;
             case (R.id.a5):
                 Log.v("Just Java", "Checkbox clicked");
                 if (checked)
                     scoreAnswer5 += 1;
                 else
-                    scoreAnswer5 = 0;
+                    scoreAnswer5 -= 1;
                 break;
             case R.id.b5:
                 if (checked)
                     scoreAnswer5 += 1;
                 else
-                    scoreAnswer5 = 0;
+                    scoreAnswer5 -= 1;
                 break;
             case R.id.c5:
                 if (checked)
-                    scoreAnswer5 = 0;
+                    scoreAnswer5 -= 1;
                 else
-                    scoreAnswer5 = 0;
+                    scoreAnswer5 += 1;
                 break;
             case R.id.d5:
                 if (checked)
-                    scoreAnswer5 = 0;
+                    scoreAnswer5 -= 1;
                 else
-                    scoreAnswer5 = 0;
+                    scoreAnswer5 += 1;
                 break;
             case (R.id.a9):
                 Log.v("Just Java", "Checkbox clicked");
                 if (checked)
                     scoreAnswer9 += 1;
                 else
-                    scoreAnswer9 = 0;
+                    scoreAnswer9 -= 1;
                 break;
             case R.id.b9:
                 if (checked)
                     scoreAnswer9 += 1;
                 else
-                    scoreAnswer9 = 0;
+                    scoreAnswer9 -= 1;
                 break;
             case R.id.c9:
                 if (checked)
-                    scoreAnswer9 = 0;
+                    scoreAnswer9 -= 1;
                 else
-                    scoreAnswer9 = 0;
+                    scoreAnswer9 += 1;
                 break;
             case R.id.d9:
                 if (checked)
                     scoreAnswer9 += 1;
                 else
-                    scoreAnswer9 = 0;
+                    scoreAnswer9 -= 1;
                 break;
 
         }
